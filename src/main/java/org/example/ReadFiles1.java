@@ -16,7 +16,7 @@ public class ReadFiles1 {
             insertFromTxt("src/main/java/org/example/file1.txt", conn);
             System.out.println("Added successfully from txt file");
 
-            insertFromCsv("src/main/java/org/example/file2.csv", conn);
+            insertFromCsv("src/main/java/org/example/file1.csv", conn);
             System.out.println("Added successfully from csv file");
 
         } catch (SQLException | IOException e) {
